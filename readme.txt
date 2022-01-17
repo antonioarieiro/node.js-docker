@@ -13,9 +13,7 @@ Docker Create: docker build -t arch/dockernode .
 depois
 Docker Run: docker run -p 3000:3000 -d arch/dockernode
 
-o docker yml não esta incluso na pasta pois nele costa minhas chaves individuias de banco,(PQ NÃO USOU O ENV ENTÃO ? )
-Como a intenção era deixar o mais pronto o possivel as variaveis ja estão todas declaradas na aplicação e não em um env
-
+o docker yml não esta incluso na pasta pois nele costa minhas chaves individuias de banco
 
 ########### LEMBRE-SE ############
 ALTERE OS DADOS DO BANCO DE DADOS PGSQL PARA OS DE SUA MAQUINA
